@@ -1,0 +1,24 @@
+import math
+
+developerlar = {
+    'hasan' : {
+        'full name': 'Hasan Abdullayev',
+        'age': 25,
+        'experience': 5,
+        'skills': ['Python', 'JavaScript', 'SQL']
+    },
+    'Murod' : {
+        'full name': 'Murod Murodov',
+        'age': 30,
+        'experience': 8,
+        'skills': ['Java', 'C++', 'JavaScript']
+    },
+    'Ali' : {
+        'full name': 'Ali Valiyev',
+        'age': 22,
+        'experience': 2,
+        'skills': ['HTML', 'CSS', 'JavaScript']
+    }
+}
+for developer in developerlar:
+    print(f"Developerning ismi {developerlar[developer]['full name']} va u {developerlar[developer]['age']} yoshda.Uning Dasturlash sohasidagi tajribasi {developerlar[developer]['experience']} yil va u {developerlar[developer]['skills']} dasturlash tillarini biladi")
