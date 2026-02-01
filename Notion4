@@ -1,0 +1,21 @@
+import math
+
+mashxur001 = {
+    "ismi": "Abdulla Avloniy",
+    "yili": "1878-yil 12-iyulda tug'ilgan",
+    "nima qilgan": "Turkiston ozodligi uchun jadidlik harakatlarini olib borgan",
+}
+mashxur002 = {
+    "ismi": "Alisher Navoiy",
+    "yili": "1441-yil 12-iyulda tug'ilgan",
+    "nima qilgan":"Xamsa dostonini yozgan",
+}
+mashxur003 = {
+    "ismi": "Jaloliddin Manguberdi",
+    "yili": "1199-yil tug'ilgan",
+    "nima qilgan":"Vatan ozod ligi uchun kurashgan"
+}
+mashxurlar = [mashxur002,mashxur001,mashxur003]
+
+for mashxur in mashxurlar:
+    print(f"{mashxur['ismi']} - {mashxur['yili']} va {mashxur['nima qilgan']}")
