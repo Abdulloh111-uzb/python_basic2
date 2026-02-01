@@ -1,0 +1,18 @@
+import math
+
+
+mashxur001 = {
+    "ismi": "Alisher Navoiy",
+    "Asar": "Xamsa"
+}
+mashxur002 = {
+    "ismi": "Cho'lpon",
+    "Asar": "Uyg‘onish",
+}
+mashxur003 = {
+    "ismi": "Pushkin",
+    "Asar": "Kapitan qizi",
+}
+mashxurlar = [mashxur001, mashxur002, mashxur003]
+for mashxur in mashxurlar:
+    print(f"{mashxur['ismi']}  {mashxur['Asar']} asarini yozgan")
