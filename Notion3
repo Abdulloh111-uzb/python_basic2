@@ -1,0 +1,15 @@
+import math
+
+pythonda_izohli_lugat = {
+    'int':'Butun son',
+    'float':'Haqiqiy son',
+    'str':'Matn',
+    'list':'Ro`yxat',
+    'tuple':'O`zgarmas ro`yxat',
+    'if':'Agar',
+    'else':'Aks holda',
+    'for':'Uchun'
+}
+pyDaLugat = input('Lugatni so`zini kiriting:')
+pyDaLugatOne = pythonda_izohli_lugat.get(pyDaLugat.lower(),'Bunday lugat yo`q')
+print(pyDaLugatOne)
