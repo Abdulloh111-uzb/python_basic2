@@ -1,0 +1,14 @@
+import math
+
+davlatlar = {
+    'Uzbekiston':'Markaziy Osiyoda joylashgan davlat',
+    'AQSh':'Shimoliy Amerikada joylashgan davlat',
+    'Rossiya':'Markaziy Osiyoda joylashgan davlat',
+    'Italiya':'Yevropada joylashgan davlat',
+    'Ispaniya':'Yevropada joylashgan davlat',
+}
+kiruvchiDavlat = input('Davlat nomini kiriting:')
+if kiruvchiDavlat in davlatlar:
+    print(f"{kiruvchiDavlat} haqida ma'lumot: {davlatlar[kiruvchiDavlat]}")
+else:
+    print("Bu davlat lug'atda yo`q")
