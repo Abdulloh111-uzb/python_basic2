@@ -1,0 +1,12 @@
+import math
+
+odam001 = {
+    "Akam": "Ichkarida(Turk serial)",
+    "Shohruh do'stim": "Taqdirlar(O'zbek serial)",
+    "Men": "Stranger Things(Hollywood serial)",
+    "Onam": "Iqror(O'zbek serial)",
+}
+print(f"Akamning yaxshi ko'rgan seriali {odam001['Akam']}")
+print(f"Onamning yaxshi ko'rgan seriali {odam001['Onam']}")
+print(f"Mening yaxshi ko'rgan serialim {odam001['Men']}")
+print(f"Shohruh do'stimning yaxshi ko'rgan seriali {odam001['Shohruh do\'stim']}")
