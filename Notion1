@@ -1,0 +1,27 @@
+import math
+
+akam = {
+    'Ismi' : 'Zafar', 
+    "Tugulgan yili" : "1974-yil", 
+    "Kasbi" : "Trener" 
+}
+onam = {
+    'Ismi' : "Barno", 
+    "Tugulgan yili" : "1972-yil", 
+    "Kasbi" : "Tadbirkor"
+}
+katta_ogam = {
+    'Ismi' : "Sardor", 
+    "Tugulgan yili" : "1991-yil", 
+    "Kasbi" : "O'qituvchi"
+}
+kichil_ogam = {
+    'Ismi' : "Sarvar", 
+    "Tugulgan yili" : "1994-yil", 
+    "Kasbi" : "O'qituvchi"
+}
+print( 'Akamning ismi' ,akam['Ismi'], 'va akam' , akam['Tugulgan yili'],'tugilgan',',kasblari esa',akam["Kasbi"])
+# print('Akamni kasbi esa', akam['Kasbi'])
+print( 'Onaming ismi' ,onam['Ismi'], 'va onam' , onam['Tugulgan yili'],'tugilgan',',kasblari esa',onam["Kasbi"])
+print( 'Katta Ogamning ismi' ,katta_ogam['Ismi'], 'va ogam' , katta_ogam['Tugulgan yili'],'tugilgan',',kasblari esa',katta_ogam["Kasbi"])
+print( 'Kichik Ogamning ismi' ,kichil_ogam['Ismi'], 'va ogam' , kichil_ogam['Tugulgan yili'],'tugilgan',',kasblari esa',kichil_ogam["Kasbi"])
