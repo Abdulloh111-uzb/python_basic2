@@ -1,0 +1,22 @@
+import math
+
+Akam = {
+    "Sevimli taomi": 'Baliq',
+}
+Onam = {
+    "Sevimli taomi": 'Osh',
+}
+katta_Ogam = {
+    "Sevimli taomi": 'Somsa',
+}
+kichik_Ogam = {
+    "Sevimli taomi": 'Shorva',
+}
+Ukam = {
+    "Sevimli taomi": 'Kasha',
+}
+print('Akamning sevimli taomi',Akam['Sevimli taomi'])
+print('Onamning sevimli taomi',Onam['Sevimli taomi'])
+print('Katta Ogamning sevimli taomi',katta_Ogam['Sevimli taomi'])
+print('Kichik Ogamning sevimli taomi',kichik_Ogam['Sevimli taomi'])
+print('Ukamning sevimli taomi',Ukam['Sevimli taomi'])
