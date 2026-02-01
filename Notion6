@@ -1,0 +1,23 @@
+import math
+
+davlat001 = {
+    "ismi": "O'zbekiston",
+    "poytaxti": "Toshkent",
+    "aholisi": "37 mln",
+    "yuzasi": "448978 km²"
+}
+davlat002 = {
+    "ismi": "Rossiya",
+    "poytaxti": "Moskva",
+    "aholisi": "146 mln",
+    "yuzasi": "17098242 km²"
+}
+davlat003 = {
+    "ismi": "AQSh",
+    "poytaxti": "Vashington",
+    "aholisi": "331 mln",
+    "yuzasi": "9833517 km²"
+}
+davlatlar = [davlat001, davlat002, davlat003]
+for davlat in davlatlar:
+    print(f"{davlat['ismi']}ning poytaxti {davlat['poytaxti']}, aholisi {davlat['aholisi']} kishi, yuzasi esa {davlat['yuzasi']}.")
